@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+    background-color: aqua;
+}
+.card{
+    display: inline;
+			height: 120px;
+			width: 100px;
+			color: white;
+			background-color: black;
+            padding: 5px;
+
+}
