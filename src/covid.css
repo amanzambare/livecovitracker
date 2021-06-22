@@ -3,15 +3,39 @@
     padding: 0;
     
 }
-section{
+body{
     background-color: aqua;
 }
-.card{
-    display: inline;
+/* .card{
+    display: flex;
 			height: 120px;
 			width: 100px;
 			color: white;
 			background-color: black;
             padding: 5px;
 
+} */
+/* .card_main{
+    display: block;
+    height: 50px;
+    min-width: 200px;
+    background-color: blueviolet;
+    padding: 2px;
+} */
+.cards{
+    display: flex;
+    /* gap: 2px; */
+    row-gap: 5px;
+    align-items: center;
+    padding: 20px;
+}
+li{
+    float:left;
+    background-color: brown;
+    height: 200px;
+    margin: 5px;
+    padding: 20px;
+    min-width: 300px;
+    /* align-items: center; */
+    align-self: center;
 }
